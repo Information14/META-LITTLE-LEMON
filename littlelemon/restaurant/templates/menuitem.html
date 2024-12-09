@@ -1,0 +1,37 @@
+{% extends 'base.html' %} 
+{% load static %} 
+{% block content %}
+<section>
+   <article>
+      <h2>Menu item</h2>
+      <span>
+         <a href="{% url 'home' %}">Home</a> /
+         <a href="{% url 'menu' %}">Menu</a>/
+      </span>
+      <!--Begin row-->
+      <div class="row">
+         <!--Begin col-->
+         <div class="column">
+            <div class="">
+               <p>
+                   <a href="#">
+                       {{ menu.name }}
+                   </a>
+                   <span class="menu-price">
+                       ${{ menu.price }}.00
+                   </span>
+               </p>
+       
+               <p>
+                  {{ menu.menu_item_description }}
+               </p>
+           </div>
+         </div>
+         <!--End col-->
+         
+         <!--End col-->
+      </div>
+      <!--End row-->
+   </article>
+</section>
+{% endblock %}
