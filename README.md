@@ -1,7 +1,7 @@
-Meta (Little Lemon) Back End Developer Project
+
 ---
 
-# META Little Lemon 
+# Meta (Little Lemon) Back End Developer Project
 
 This project is a Django-based web application for managing restaurant reservations and displaying menu items. It provides features for customers to book reservations, view the menu, and filter menu items by name. The application also supports RESTful APIs for data access.
 
