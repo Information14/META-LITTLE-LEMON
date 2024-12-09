@@ -73,7 +73,7 @@ This project is a Django-based web application for managing restaurant reservati
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Information14/META-LITTLE-LEMON.git
-   cd 
+   cd littlelemon
    ```
 
 2. **Set Up a Virtual Environment**:
